@@ -15,3 +15,9 @@ C:\Users\Toni Ivanova\Desktop\team\trunk\TeamworkHTML\public_html\bin\teamworkHT
 C:\Users\Toni Ivanova\Desktop\team\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.csprojResolveAssemblyReference.cache
 C:\Users\Toni Ivanova\Desktop\team\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.dll
 C:\Users\Toni Ivanova\Desktop\team\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.pdb
+D:\SoftUni\Teamwork and Personal Skills\team\trunk\TeamworkHTML\public_html\bin\teamworkHTML.dll.config
+D:\SoftUni\Teamwork and Personal Skills\team\trunk\TeamworkHTML\public_html\bin\teamworkHTML.dll
+D:\SoftUni\Teamwork and Personal Skills\team\trunk\TeamworkHTML\public_html\bin\teamworkHTML.pdb
+D:\SoftUni\Teamwork and Personal Skills\team\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.csprojResolveAssemblyReference.cache
+D:\SoftUni\Teamwork and Personal Skills\team\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.dll
+D:\SoftUni\Teamwork and Personal Skills\team\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.pdb

@@ -1,10 +1,9 @@
 body {
         text-align: center;
-        background-color: #8A1C00;
-} 
+     }
 #main {
-    width: 1310px;
-    height: 300px;
+    width: 1200px;
+    height: 450px;
     margin: 0px auto;
     background-image: url("../IMG/background.png");
     background-position: center center;    
@@ -17,14 +16,13 @@ body {
 
 #main * {
     color: #FFFFFF;
-    width: 500px;
-    height: 500px;
+    
 }
 
 #first-link {
     position: absolute;
-    top: 14px;
-    left: 20px;
+    top: 50px;
+    left: 80px;
     background-image: url('../IMG/Nakov-marvel.png');
     background-color: #000000;
     background-size:cover;    
@@ -35,30 +33,30 @@ body {
 
 #second-link {
     position: absolute;
-    top: 14px;
-    left: 1141px;
+    top: 50px;
+    left: 1020px;
     background-image: url('../IMG/Teodor-marvel.png');
     background-color: #000000;
-    background-size: cover;
+    background-size:cover;
     width: 150px;
     height: 150px;
 }
 
 #third-link {
-position: absolute;
-top: 342px;
-left: 490px;
-background-image: url('../IMG/Vlado-marvel.png');
-background-color: #000000;
-background-size: cover;
-width: 150px;
-height: 150px;
+    position: absolute;
+    top: 480px;
+    left: 80px;
+    background-image: url('../IMG/Vlado-marvel.png');
+    background-color: #000000;
+    background-size:cover;
+    width: 150px;
+    height: 150px;
 }
 
 #fourth-link {
     position: absolute;
-    top: 345px;
-    left: 743px;
+    top: 480px;
+    left: 1020px;
     background-image: url('../IMG/Petya-marvel.png');
     background-color: #000000;
     background-size:cover;
@@ -76,21 +74,4 @@ height: 150px;
     position: absolute;
     top: 225px;
     left: 550px;    
-}
-.logo{
-    font-family: 'Indie Flower', cursive;
-    margin-top: 10px;
-    margin-left: 10px;
-    font-size: 50px;
-    background-color: #B25A5A;
-    margin-bottom: 14px;
-    color: black;
-}
-a{
-   text-decoration: none;
-}
-.footer{
-     background-color: #B25A5A;
-     width: 10px;
-     height: 10px;
 }
