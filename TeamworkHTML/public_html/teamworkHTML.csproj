@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\Style.css" />
+    <Content Include="CSS\vlado.css" />
     <Content Include="IMG\grass.png" />
     <Content Include="IMG\nakov.jpg" />
     <Content Include="index.html" />
