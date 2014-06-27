@@ -9,13 +9,15 @@ body {
     /*background-color: yellow;*/
 }
 
-article, article div, article img {
+figure, figure div, figure img {
     display: inline-block;
     vertical-align: top;
+    margin:0;
+    padding:0;
 }
 /* Първа сцена*/
 #responsive1-1 {
-    font-size: 1em;
+    font-size: 1rem;
     display: block;
     visibility: hidden;
 }
@@ -97,7 +99,7 @@ article, article div, article img {
 
 /*Втора сцена*/
 #responsive1-2 {
-    font-size: 2em;
+    font-size: 2rem;
     display: block;
     visibility: visible;
 }
@@ -185,6 +187,303 @@ article, article div, article img {
 
 
 
+/* Трета сцена*/
+#responsive1-3 {
+    font-size: 1rem;
+    display: block;
+    visibility: visible;
+}
+
+#third-scene img {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    /*min-width: 250px;*/
+    height: auto;
+}
+
+#third-scene {
+    overflow: visible;
+    position: relative !important;
+    background-color: pink;
+    display: inline-block;
+    /*margin:200px;*/
+}
+
+#bubble1-3 {
+    display:block;
+    background-image: url("../IMG/1/1.3-bubble.png");
+    background-repeat: no-repeat;
+    position: absolute !important;
+    left: 0.6em;
+    top: 0.7em;
+    width: 12em;
+    height: 12em;
+    z-index: 5;
+}
+
+#bubble1-3 p {
+
+   text-align:center;  
+    /*border: 1px solid #000;*/
+    display: block;
+    font-size: 1.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 2.5em;
+    z-index: 6;
+    margin: 0;
+}
+
+#bubble1-3:hover {
+    color: red;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+
+
+
+
+/*Четвърта сцена*/
+#responsive1-4 {
+    font-size: 2rem;
+    display: block;
+    visibility: visible;
+}
+
+#fourth-scene img {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    /*min-width: 250px;*/
+    height: auto;
+}
+
+#fourth-scene {
+    overflow: visible;
+    position: relative !important;
+    background-color: orange;
+    display: inline-block;
+    /*margin:200px;*/
+}
+
+#bubble1-4-1 {
+    background-image: url("../IMG/1/1.4.1-bubble.gif");
+    background-repeat: no-repeat;
+    position: absolute !important;
+    left: 0.5em;
+    top: 0.3em;
+    width: 23em;
+    height: 9em;
+    z-index: 5;
+}
+
+#bubble1-4-1 p {
+    /*border: 1px solid #000;*/
+    display: block;
+    font-size: 1.1em;
+    padding-left: 3em;
+    padding-right: 1em;
+    padding-top: 1em;
+    z-index: 6;
+    margin: 0;
+}
+
+#bubble1-4-1:hover {
+    color: red;
+    background-image: url("../IMG/1/1.4.1-pop-bubble.gif");
+    background-repeat: no-repeat;
+    position: absolute !important;
+    left: 0.5em;
+    top: -1em;
+    width: 23em;
+    height: 12em;
+    z-index: 15;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+#bubble1-4-1:hover p {
+    display: block;
+    font-size: 1.1em;
+    padding-left: 3em;
+    padding-right: 1em;
+    padding-top: 3em;
+    z-index: 6;
+    margin: 0;
+}
+
+#bubble1-4-2 {
+    background-image: url("../IMG/1/1.4.2-bubble.gif");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 15em;
+    height: 13em;
+    font-size: 1em;
+    position: absolute;
+    left: 11.8em;
+    top: 7.8em;
+}
+
+#bubble1-4-2 p {
+    display: block;
+    font-size: 1.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+}
+#bubble1-4-2:hover {
+    background-image: url("../IMG/1/1.4.2-pop-bubble.gif");
+    width: 17em;
+    height: 13em;
+    font-size: 1em;
+    position: absolute;
+    left: 11em;
+    top: 7.8em;
+    z-index:10;
+    color: red;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+
+/* Пета сцена*/
+#responsive1-5 {
+    font-size: 1rem;
+    display: block;
+    visibility: visible;
+}
+
+#fifth-scene img {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    /*min-width: 250px;*/
+    height: auto;
+}
+
+#fifth-scene {
+    overflow: visible;
+    position: relative !important;
+    background-color: blue;
+    display: inline-block;
+    /*margin:200px;*/
+}
+
+#bubble1-5 {
+    display:block;
+    background-image: url("../IMG/1/1.5-bubble.gif");
+    background-repeat: no-repeat;
+    position: absolute !important;
+    left: 0em;
+    top: 0.9em;
+    width: 15.3em;
+    height: 9em;
+    z-index: 5;
+}
+
+#bubble1-5 p {
+
+   text-align:center;  
+    /*border: 1px solid #000;*/
+    display: block;
+    font-size: 1.2em;
+    padding-left: 1em;
+    padding-right: 0.5em;
+    padding-top: 2em;
+    z-index: 6;
+    margin: 0;
+}
+
+#bubble1-5:hover {
+    color: red;
+    display:block;
+    background-image: url("../IMG/1/1.5-pop-bubble.gif");
+    background-repeat: no-repeat;
+    position: absolute !important;
+    left: 0em;
+    top: 0.9em;
+    width: 18em;
+    height: 9em;
+    z-index: 5;;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+#bubble1-5:hover p {
+    text-align:left; 
+    /*border: 1px solid #000;*/
+    display: block;
+    font-size: 1.1em;
+    padding-left: 2.2em;
+    padding-right: 3.5em;
+    padding-top: 2em;
+    z-index: 6;
+    margin: 0;
+}
+
+/* Шеста сцена*/
+#responsive1-6 {
+    font-size: 1rem;
+    display: block;
+    visibility: visible;
+}
+
+#sixth-scene img {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    /*min-width: 250px;*/
+    height: auto;
+}
+
+#sixth-scene {
+    overflow: visible;
+    position: relative !important;
+    background-color: purple;
+    display: inline-block;
+    /*margin:200px;*/
+}
+
+#bubble1-6 {
+    display:block;
+    background-image: url("../IMG/1/1.6-bubble.gif");
+    background-repeat: no-repeat;
+    position: absolute !important;
+    left: 3em;
+    top: 0.8em;
+    width: 15em;
+    height: 11em;
+    z-index: 5;
+}
+
+#bubble1-6 p {
+
+   text-align:center;  
+    /*border: 1px solid #000;*/
+    display: block;
+    font-size: 1.2em;
+    padding-left: 1em;
+    padding-right: 0.5em;
+    padding-top: 2em;
+    z-index: 6;
+    margin: 0;
+}
+
+#bubble1-6:hover {
+    color: red;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+/*#bubble1-6:hover p {
+    text-align:left; 
+    display: block;
+    font-size: 1.1em;
+    padding-left: 2.2em;
+    padding-right: 3.5em;
+    padding-top: 2em;
+    z-index: 6;
+    margin: 0;
+}*/
 
 
 
