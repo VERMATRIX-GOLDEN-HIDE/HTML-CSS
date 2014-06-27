@@ -27,12 +27,13 @@ article, article div, article img {
     position: relative;
     background-color: yellow;
     display: inline-block;
+    margin:200px;
 }
 
 #bubble1-1-1 {
     background-image: url("../IMG/1/1.1.1-bubble.png");
     background-repeat: no-repeat;
-    position: fixed;
+    position: absolute;
     left: 21em;
     top: 1.2em;
     width: 12em;
@@ -50,7 +51,14 @@ article, article div, article img {
     z-index: 6;
     margin: 0;
 }
-
+#bubble1-1-1:hover{
+    color:red;
+    -webkit-transform: scale(1.2);
+}
+#bubble1-1-2:hover{
+    color:red;
+    -webkit-transform: scale(1.2);
+}
 #bubble1-1-2 {
     background-image: url("../../IMG/1/1.1.2-bubble.png");
     background-repeat: no-repeat;
@@ -58,7 +66,7 @@ article, article div, article img {
     width: 19em;
     height: 15em;
     font-size: 1em;
-    position: fixed;
+    position: absolute;
     left: 35em;
     top: 1.2em;
 }
