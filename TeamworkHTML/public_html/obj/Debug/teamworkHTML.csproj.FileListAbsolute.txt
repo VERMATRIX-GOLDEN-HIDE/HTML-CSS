@@ -33,3 +33,13 @@ C:\Users\D.Valchanova\Desktop\TeamWork-HTML+CSS - Copy\trunk\TeamworkHTML\public
 C:\Users\D.Valchanova\Desktop\TeamWork-HTML+CSS - Copy\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.csprojResolveAssemblyReference.cache
 C:\Users\D.Valchanova\Desktop\TeamWork-HTML+CSS - Copy\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.dll
 C:\Users\D.Valchanova\Desktop\TeamWork-HTML+CSS - Copy\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.pdb
+C:\Users\Toni Ivanova\Desktop\HTML-CSS1\TeamworkHTML\public_html\bin\teamworkHTML.dll
+C:\Users\Toni Ivanova\Desktop\HTML-CSS1\TeamworkHTML\public_html\bin\teamworkHTML.pdb
+C:\Users\Toni Ivanova\Desktop\HTML-CSS1\TeamworkHTML\public_html\obj\Debug\teamworkHTML.csprojResolveAssemblyReference.cache
+C:\Users\Toni Ivanova\Desktop\HTML-CSS1\TeamworkHTML\public_html\obj\Debug\teamworkHTML.dll
+C:\Users\Toni Ivanova\Desktop\HTML-CSS1\TeamworkHTML\public_html\obj\Debug\teamworkHTML.pdb
+C:\Users\Toni Ivanova\Desktop\HTML-CSS\TeamworkHTML\public_html\bin\teamworkHTML.dll
+C:\Users\Toni Ivanova\Desktop\HTML-CSS\TeamworkHTML\public_html\bin\teamworkHTML.pdb
+C:\Users\Toni Ivanova\Desktop\HTML-CSS\TeamworkHTML\public_html\obj\Debug\teamworkHTML.csprojResolveAssemblyReference.cache
+C:\Users\Toni Ivanova\Desktop\HTML-CSS\TeamworkHTML\public_html\obj\Debug\teamworkHTML.dll
+C:\Users\Toni Ivanova\Desktop\HTML-CSS\TeamworkHTML\public_html\obj\Debug\teamworkHTML.pdb
