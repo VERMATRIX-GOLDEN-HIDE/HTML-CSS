@@ -60,6 +60,7 @@
     <Content Include="CSS\story2.css" />
     <Content Include="CSS\Style.css" />
     <Content Include="CSS\vlado.css" />
+    <Content Include="CSS\X-developers.css" />
     <Content Include="IMG\1\1.1.1-bubble.png" />
     <Content Include="IMG\1\1.1.2-bubble.png" />
     <Content Include="IMG\1\1.1.png" />
@@ -79,6 +80,7 @@
     <Content Include="vlado-page3.html" />
     <Content Include="vlado.html" />
     <Content Include="Web.config" />
+    <Content Include="X-developers.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
