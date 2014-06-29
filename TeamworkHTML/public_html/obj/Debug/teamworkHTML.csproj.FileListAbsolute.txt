@@ -49,3 +49,9 @@ C:\Users\D.Valchanova\Desktop\rev21\trunk\TeamworkHTML\public_html\bin\teamworkH
 C:\Users\D.Valchanova\Desktop\rev21\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.csprojResolveAssemblyReference.cache
 C:\Users\D.Valchanova\Desktop\rev21\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.dll
 C:\Users\D.Valchanova\Desktop\rev21\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.pdb
+C:\Users\D.Valchanova\Desktop\rev23\trunk\TeamworkHTML\public_html\bin\teamworkHTML.dll.config
+C:\Users\D.Valchanova\Desktop\rev23\trunk\TeamworkHTML\public_html\bin\teamworkHTML.dll
+C:\Users\D.Valchanova\Desktop\rev23\trunk\TeamworkHTML\public_html\bin\teamworkHTML.pdb
+C:\Users\D.Valchanova\Desktop\rev23\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.csprojResolveAssemblyReference.cache
+C:\Users\D.Valchanova\Desktop\rev23\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.dll
+C:\Users\D.Valchanova\Desktop\rev23\trunk\TeamworkHTML\public_html\obj\Debug\teamworkHTML.pdb

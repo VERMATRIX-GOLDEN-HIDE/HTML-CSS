@@ -57,11 +57,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\story2.css" />
     <Content Include="CSS\Style.css" />
     <Content Include="CSS\vlado.css" />
     <Content Include="IMG\1\1.1.1-bubble.png" />
     <Content Include="IMG\1\1.1.2-bubble.png" />
     <Content Include="IMG\1\1.1.png" />
+    <Content Include="IMG\2\2-1-bg.png" />
+    <Content Include="IMG\2\2.1-bubble.gif" />
     <Content Include="IMG\grass.png" />
     <Content Include="IMG\nakov.jpg" />
     <Content Include="index.html" />
@@ -70,6 +73,7 @@
     <Content Include="script\jquery.js" />
     <Content Include="script\Script.js" />
     <Content Include="sekretarkata.html" />
+    <Content Include="story2.html" />
     <Content Include="teodor.html" />
     <Content Include="vlado-page2.html" />
     <Content Include="vlado-page3.html" />
