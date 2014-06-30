@@ -1,12 +1,12 @@
 body {
         text-align: center;
         background-color: #8A1C00;
-        padding-right: 80px;
+        padding-right: 5%;
 } 
 #main {
     width: 100%;
     position: relative;
-    margin-left: 35px; 
+    margin-left: 1%; 
     opacity:1;
 }
 
@@ -121,9 +121,9 @@ body {
     font-family: 'Indie Flower', cursive;
     width: 100%;
     margin-top: 10px;
-    margin-left: 36px;
+    margin-left: 1%;
     margin-bottom: 10px;
-    font-size: 50px;
+    font-size: 2em;
     background-color: #B25A5A;
 }
 a{
@@ -134,15 +134,48 @@ a{
 .footer{
     width: 100%;
     background-color: #B25A5A;
-    margin-left: 36px;
+    margin-left: 1%;
+}
+.footerUl{
+    padding:0;
 }
 .footerUl li{
     display: inline-block;
     list-style-type: none;
-    padding: 5px 30px;
+    padding: 5px 7%;
 }
 .footerUl li:first-child{
     display: inline-block;
     list-style-type: none;
-    padding-left: 0px;
+    
+}
+.footerUl li:hover {
+    /*background-color:pink;*/
+    font-size:1.1rem;
+}
+.footerUl li:hover a{
+    background-color:red;
+}
+
+#rdNakov{
+    visibility:hidden;
+    width:150px;
+    height:1em;
+    padding:0;
+    margin:0;
+    /*text-align:left;*/
+    background-color:transparent;
+    color:red;
+    font-size:0.5em;
+    position:absolute;
+    left:0em;
+    top:5em;
+    margin-bottom:1%;
+}
+
+@media (max-width: 450px) {
+    #rdNakov{
+        display:normal;
+        visibility:visible;
+    }
 }
