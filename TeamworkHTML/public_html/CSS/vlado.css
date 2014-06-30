@@ -20,7 +20,7 @@ figure, figure div, figure img {
 
 .footer{
      background-color: #B25A5A;
-     height: 3.6rem;       
+     height: 35px;     
      width: 126rem;
           
 }
@@ -41,7 +41,7 @@ figure, figure div, figure img {
     transition:all .3s ease;    
     font-size:2rem;
     margin-top:0.3rem;
-    border-radius: 0.6rem;
+    border-radius: 7px;
 }
 #button2 {
     width:19%;
@@ -59,7 +59,7 @@ figure, figure div, figure img {
     transition:all .3s ease;
     font-size:2rem;
     margin-top:0.3rem;
-    border-radius: 0.6rem;
+    border-radius: 7px;
 }
 #button3 {
     width:19%;
@@ -77,7 +77,7 @@ figure, figure div, figure img {
     transition:all .3s ease;
     font-size:2rem;
     margin-top:0.3rem;
-    border-radius: 0.6rem;
+    border-radius: 7px;
 }
 
 
@@ -86,8 +86,8 @@ figure, figure div, figure img {
     font-size: 1rem;
     display: block;
     visibility: hidden;
-    height:15rem;
-    width:45rem;
+    height:150px;
+    width:350px;
 }
 
 #first-page img {
@@ -171,8 +171,7 @@ figure, figure div, figure img {
     font-size: 1.3rem;
     display: block;
     visibility: visible;
-    height:5.7rem;
-    width:52rem;
+    width:525px;
 }
 
 #second-scene img {
@@ -264,7 +263,7 @@ figure, figure div, figure img {
     font-size: 2.3rem;
     display: block;
     visibility: visible;
-    width:25.2rem;
+    width:250px;
 }
 
 #third-scene img {
@@ -322,7 +321,7 @@ figure, figure div, figure img {
     font-size: 1.5rem;
     display: block;
     visibility: visible;
-    width:53rem;
+    width:535px;
     height:5.6rem;
 }
 
@@ -428,7 +427,7 @@ figure, figure div, figure img {
     font-size: 1.8rem;
     display: block;
     visibility: visible;
-    width:35.5rem;
+    width:350px;
     height:2.6rem;
 }
 
@@ -505,7 +504,7 @@ figure, figure div, figure img {
     font-size: 1.7rem;
     display: block;
     visibility: visible;
-    width:37rem;
+    width:370px;
    height:2.7rem;
 }
 
@@ -613,7 +612,7 @@ figure, figure div, figure img {
     display: block;
     visibility: visible;
     height:23.2rem;
-    width:20rem;
+    width:200px;
 }
 
 #eight-scene img {
@@ -668,7 +667,7 @@ figure, figure div, figure img {
     display: block;
     visibility: visible;
     height:23.2rem;
-    width:16rem;
+    width:160px;
 }
 
 #ninth-scene img {
@@ -724,7 +723,7 @@ figure, figure div, figure img {
     display: block;
     visibility: visible;
     height:23.2rem;
-    width:20rem;
+    width:200px;
 }
 
 #tenth-scene img {
@@ -778,7 +777,7 @@ figure, figure div, figure img {
     display: block;
     visibility: visible;
     height:23.2rem;
-    width:14rem;
+    width:140px;
 }
 
 #eleventh-scene img {
@@ -899,7 +898,7 @@ figure, figure div, figure img {
     display: block;
     visibility: visible;
     height:45rem;
-    width:25.5rem;
+    width:255px
 }
 
 #fourteenth-scene img {

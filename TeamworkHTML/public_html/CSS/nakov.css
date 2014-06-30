@@ -60,7 +60,7 @@ figure {
 }
 .footer{
      background-color: #B25A5A;
-     height: 4rem;     
+     height: 45px;     
      width: 126rem;
           
 }
@@ -82,6 +82,6 @@ figure {
     transition:all .3s ease;
     font-size:2rem;
     margin-top:0.8rem;
-    border-radius: 0.6rem;
+    border-radius: 7px;
 }
 

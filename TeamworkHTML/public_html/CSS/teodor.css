@@ -3,9 +3,12 @@
     font-size: 62.5%; /*20px;*/
     padding: 0;
     margin: 0;
+    margin-bottom:0;
 }
+
 body {
     /*background-color: yellow;*/
+    margin-bottom:0;
 }
 
 figure, figure div, figure img {
@@ -13,11 +16,12 @@ figure, figure div, figure img {
     vertical-align: top;
     margin: 0;
     padding: 0;
+    margin-bottom:0;
 }
 .footer{
      background-color: #B25A5A;
-     height: 4.5rem;       
-     width:121.3rem;
+     height: 45px;     
+     width: 121.3rem;
            
 }
 
@@ -38,24 +42,22 @@ figure, figure div, figure img {
     transition:all .3s ease;
     font-size:2rem;
     margin-top:0.8rem;
-    border-radius: 0.6rem;
+    border-radius: 7px;
     margin-bottom:0;
-
 }
-
-
-
 /* Първа сцена - Исторя 2*/
 #responsive2-1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     display: block;
     visibility: visible;
+    width:30rem;
+    height:5rem
 }
 
 #first-scene2 img {
     margin: 0;
     padding: 0;
-    max-width: 100%;
+    max-width: 80%;
     /*min-width: 250px;*/
     height: auto;
 }
@@ -65,6 +67,8 @@ figure, figure div, figure img {
     position: relative !important;
     background-color: yellow;
     display: inline-block;
+    width:30rem;
+    height:40rem;
     /*margin:200px;*/
 }
 
@@ -72,11 +76,11 @@ figure, figure div, figure img {
     background-image: url("../IMG/2/2.1-bubble.gif");
     background-repeat: no-repeat;
     position: absolute !important;
-    left: 46.2em;
-    top: 4.9em;
+    left: 10.2em;
+    top: 0.9em;
     width: 11em;
-    height: 9em;
-    z-index: 5;
+    height: 6em;
+    z-index: 3;
 }
 
     #bubble2-1 p {
@@ -100,21 +104,30 @@ figure, figure div, figure img {
     font-size: 2rem;
     display: block;
     visibility: visible;
+    width:30rem;
+    height:5rem;
+    
+
 }
 
 #second-scene2 img {
     margin: 0;
     padding: 0;
-    max-width: 100%;
+    max-width: 80%;
     /*min-width: 250px;*/
-    height: auto;
+    height: 40rem;
+    float:right;
+    
 }
 
 #second-scene2 {
     overflow: visible;
     position: relative !important;
-    background-color: yellow;
+    background-color: blue;
     display: inline-block;
+    width:40rem;
+    height:40rem;
+    margin-bottom:1rem;
     /*margin:200px;*/
 }
 
@@ -122,18 +135,18 @@ figure, figure div, figure img {
     background-image: url("../IMG/2/2-2-1-bubblepsd.gif");
     background-repeat: no-repeat;
     position: absolute !important;
-    left: 18.2em;
-    top: 1em;
-    width: 17em;
-    height: 12em;
-    z-index: 5;
+    left: 28.2em;
+    top: 0.1em;
+    width: 11em;
+    height: 7em;
+    z-index: 3;
 }
 
     #bubble2-2-1 p {
         display: block;
-        font-size: 1em;
-        padding-left: 2.5em;
-        padding-right: 6.8em;
+        font-size: 0.5em;
+        padding-left: 3.5em;
+        padding-right: 0.8em;
         padding-top: 2em;
         z-index: 6;
         margin: 0;
@@ -141,7 +154,7 @@ figure, figure div, figure img {
 
     #bubble2-2-1:hover {
         color: red;
-        left: 17.8em;
+        left: 20.8em;
         top: 0.8em;
         transform: scale(2);
         -webkit-transform: scale(2);
@@ -153,9 +166,9 @@ figure, figure div, figure img {
     background-repeat: no-repeat;
     position: absolute !important;
     left: 30.3em;
-    top: 110.4em;
-    width: 14em;
-    height: 12em;
+    top: 45.4em;
+    width: 12em;
+    height: 9em;
     z-index: 5;
 }
 
@@ -172,7 +185,7 @@ figure, figure div, figure img {
     #bubble2-2-2:hover {
         color: red;
         left: 31.3em;
-        top: 110.4em;
+        top: 42.4em;
         transform: scale(1.5);
         -webkit-transform: scale(1.5);
     }
@@ -192,6 +205,10 @@ figure, figure div, figure img {
     font-size: 2rem;
     display: block;
     visibility: visible;
+    width:30%;
+    height:30%;
+    float:right;
+    top:40rem;
 }
 
 #third-scene2 img {
@@ -200,13 +217,19 @@ figure, figure div, figure img {
     max-width: 100%;
     /*min-width: 250px;*/
     height: auto;
+    width:70%;
+    height:70%;
+    float:right;
+
 }
 
 #third-scene2 {
     overflow: visible;
     position: relative !important;
-    background-color: yellow;
+    background-color: coral;
     display: inline-block;
+    width:40%;
+    height:30%;
     /*margin:200px;*/
 }
 
@@ -214,30 +237,32 @@ figure, figure div, figure img {
     background-image: url("../IMG/2/2-3-1-bubble.gif");
     background-repeat: no-repeat;
     position: absolute !important;
-    left: 81.1em;
-    top: 5.6em;
-    width: 11em;
-    height: 5em;
-    z-index: 5;
+    left: 70.1em;
+    top: 1.6em;
+    width: 15em;
+    height: 6em;
+    z-index: 0;
 }
 
     #bubble2-3-1 p {
         display: block;
-        font-size: 0.5em;
+        font-size: 0.1rem;
         padding-left: 0.8em;
-        padding-right: 0.8em;
-        padding-top: 1.3em;
+        padding-right: 1.8em;
+        padding-top: 1.5em;
         z-index: 6;
         margin: 0;
+        
     }
 
     #bubble2-3-1:hover {
         background-image: url("../IMG/2/2-3-1-pop-bubble.gif");
         color: red;
-        left: 81.1em;
-        top: 5.6em;
+        left: 70em;
+        top: 3.6em;
         transform: scale(2);
         -webkit-transform: scale(2);
+        font-size: 0.2rem;
     }
 
 
@@ -245,10 +270,10 @@ figure, figure div, figure img {
     background-image: url("../IMG/2/2-3-2-bubble.gif");
     background-repeat: no-repeat;
     position: absolute !important;
-    left: 77em;
-    top: 13em;
+    left: 65em;
+    top: 6em;
     width: 16em;
-    height: 8em;
+    height: 7em;
     z-index: 5;
 }
 
@@ -265,8 +290,8 @@ figure, figure div, figure img {
     #bubble2-3-2:hover {
         background-image: url("../IMG/2/2-3-2-pop-bubble.gif");
         color: red;
-        left: 77em;
-        top: 13em;
+        left: 67em;
+        top: 8em;
         transform: scale(1.5);
         -webkit-transform: scale(1.5);
     }
@@ -276,11 +301,12 @@ figure, figure div, figure img {
     background-image: url("../IMG/2/2-3-3-bubble.gif");
     background-repeat: no-repeat;
     position: absolute !important;
-    left: 86.4em;
-    top: 108em;
+    left: 72em;
+    top: 53em;
     width: 8em;
     height: 7em;
     z-index: 5;
+    
 }
 
     #bubble2-3-3 p {
@@ -291,35 +317,42 @@ figure, figure div, figure img {
         padding-top: 1em;
         z-index: 6;
         margin: 0;
+        
     }
 
     #bubble2-3-3:hover {
         color: red;
         transform: scale(2.5);
-        -webkit-transform: scale(2.5);
+        -webkit-transform: scale(2.5);               
     }
 
 
 /* Четвърта сцена - Исторя 2*/
 #responsive2-4 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     display: block;
     visibility: visible;
+    height:8rem;
+    width:30rem;
+    top: 55em;
 }
 
 #fourth-scene2 img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
-    height: auto;
+    /*min-width: 250px;*/    
+    height:51rem;
+    width:40rem;
 }
 
 #fourth-scene2 {
     overflow: visible;
     position: relative !important;
-    background-color: yellow;
+    background-color: forestgreen;
     display: inline-block;
+    top: -11.6em;
+    margin-bottom:-7.4rem;
     /*margin:200px;*/
 }
 
@@ -327,8 +360,8 @@ figure, figure div, figure img {
     background-image: url("../IMG/2/2-4-1-bubble.gif");
     background-repeat: no-repeat;
     position: absolute !important;
-    left: 5.3em;
-    top: 63.8em;
+    left: 3.3em;
+    top: 33em;
     width: 14em;
     height: 17em;
     z-index: 5;
@@ -346,8 +379,8 @@ figure, figure div, figure img {
 
     #bubble2-4-1:hover {
         color: red;
-        left: 1em;
-        top: 67.8em;
+        left: 6.5em;
+        top: 35em;
         transform: scale(2);
         -webkit-transform: scale(2);
     }
@@ -357,8 +390,8 @@ figure, figure div, figure img {
     background-image: url("../IMG/2/2-4-2-bubble.gif");
     background-repeat: no-repeat;
     position: absolute !important;
-    left: 47.3em;
-    top: 117.4em;
+    left: 28em;
+    top: 61em;
     width: 18em;
     height: 10em;
     z-index: 5;
@@ -376,8 +409,8 @@ figure, figure div, figure img {
 
     #bubble2-4-2:hover {
         color: red;
-        left: 47.3em;
-        top: 117.6em;
+        left: 28em;
+        top: 61em;
         transform: scale(1.5);
         -webkit-transform: scale(1.5);
     }
@@ -385,8 +418,18 @@ figure, figure div, figure img {
        /* Пета сцена - Исторя 2*/
 #responsive2-5 {
     font-size: 2rem;
+    text-align:left;
     display: block;
     visibility: visible;
+    height:1.4em;
+    width:81rem;
+
+ }
+#P9 {
+    position: absolute;
+    left: 465px;
+    top: -1px;
+    padding-top: 200px;
 }
 
 #fifth-scene2 img {
@@ -394,14 +437,18 @@ figure, figure div, figure img {
     padding: 0;
     max-width: 100%;
     /*min-width: 250px;*/
-    height: auto;
+    margin-top:-7.4rem;
+    height:56.1rem;
+    width:45.3rem;
+    
 }
 
 #fifth-scene2 {
     overflow: visible;
     position: relative !important;
-    background-color: yellow;
+    background-color: lightseagreen;
     display: inline-block;
+    margin-bottom:-7.4rem;
     /*margin:200px;*/
 }
 
@@ -409,8 +456,8 @@ figure, figure div, figure img {
     background-image: url("../IMG/2/2-5-1-bubble.gif");
     background-repeat: no-repeat;
     position: absolute !important;
-    left: 31.2em;
-    top: 33.1em;
+    left: 21.5em;
+    top: 6em;
     width: 16em;
     height: 12em;
     z-index: 5;
