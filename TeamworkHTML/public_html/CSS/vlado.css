@@ -204,7 +204,7 @@ figure, figure div, figure img {
     #bubble1-2-1 p {
         /*border: 1px solid #000;*/
         display: block;
-        font-size: 1.2em;
+        font-size: 1.3em;
         padding-left: 3em;
         padding-right: 4em;
         padding-top: 2em;
@@ -318,10 +318,11 @@ figure, figure div, figure img {
 
 /*Четвърта сцена*/
 #responsive1-4 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     display: block;
     visibility: visible;
     width:535px;
+    height:5.6rem;
 }
 
 #fourth-scene img {
@@ -423,10 +424,11 @@ figure, figure div, figure img {
 
 /* Пета сцена*/
 #responsive1-5 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     display: block;
     visibility: visible;
     width:350px;
+    height:2.6rem;
 }
 
 #fifth-scene img {
@@ -499,10 +501,11 @@ figure, figure div, figure img {
 
 /* Шеста сцена*/
 #responsive1-6 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     display: block;
     visibility: visible;
     width:370px;
+   height:2.7rem;
 }
 
 #sixth-scene img {
@@ -553,10 +556,10 @@ figure, figure div, figure img {
 /* Втора страница*/
 /*Седма сцена*/
 #responsive1-7 {
-    font-size: 1rem;
+    font-size: 2rem;
     display: block;
     visibility: visible;
-    height:24rem;
+    height:23rem;
 }
 
 #seven-scene img {
@@ -605,10 +608,10 @@ figure, figure div, figure img {
 
 /*Осма сцена*/
 #responsive1-8 {
-    font-size: 1rem;
+    font-size: 2rem;
     display: block;
     visibility: visible;
-    height:24rem;
+    height:23.2rem;
     width:200px;
 }
 
@@ -660,10 +663,10 @@ figure, figure div, figure img {
     }
 /*Девета сцена*/
 #responsive1-9 {
-    font-size: 1rem;
+    font-size: 2rem;
     display: block;
     visibility: visible;
-    height:24rem;
+    height:23.2rem;
     width:160px;
 }
 
@@ -716,10 +719,10 @@ figure, figure div, figure img {
 
 /*Десета сцена*/
 #responsive1-10 {
-    font-size: 1rem;
+    font-size: 2rem;
     display: block;
     visibility: visible;
-    height:24rem;
+    height:23.2rem;
     width:200px;
 }
 
@@ -770,10 +773,10 @@ figure, figure div, figure img {
 
 /*Единадесета сцена*/
 #responsive1-11 {
-    font-size: 1rem;
+    font-size: 2rem;
     display: block;
     visibility: visible;
-    height:24rem;
+    height:23.2rem;
     width:140px;
 }
 
@@ -795,10 +798,10 @@ figure, figure div, figure img {
 
 /*Дванадесета сцена*/
 #responsive1-12 {
-    font-size: 1rem;
+    font-size: 2rem;
     display: block;
     visibility: visible;
-    height:26.7rem;
+    height:25.7rem;
     width:140px;
 }
 
@@ -891,10 +894,10 @@ figure, figure div, figure img {
 
 /*Четиринадесета сцена*/
 #responsive1-14 {
-    font-size: 1rem;
+    font-size: 2rem;
     display: block;
     visibility: visible;
-    height:46rem;
+    height:45rem;
     width:255px
 }
 
@@ -1044,10 +1047,10 @@ figure, figure div, figure img {
 
 /*Петнадесета сцена*/
 #responsive1-15 {
-    font-size: 1rem;
+    font-size: 2rem;
     display: block;
     visibility: visible;
-    height:45.1rem;
+    height:44.1rem;
     }
 
 #fifteenth-scene img {
@@ -1100,10 +1103,10 @@ figure, figure div, figure img {
 
 /*Шестнадесета сцена*/
 #responsive1-16 {
-    font-size: 1rem;
+    font-size: 1.8rem;
     display: block;
     visibility: visible;
-    height:20.7rem;
+    height:19.9rem;
 }
 
 #sixteenth-scene img {

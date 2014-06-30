@@ -1,0 +1,78 @@
+﻿#Image {
+     width: 55rem;
+     height:35rem;
+    font-size: 62.5%; /*20px;*/
+    padding: 0;
+    display: block;
+    margin-top: 1.5rem;
+    margin-bottom:1.5rem;
+    margin-left:auto;
+    margin-right:auto;
+    
+
+}
+.footer{
+     background-color: #B25A5A;
+     height: 3.5rem;     
+     width: 79rem;
+     margin-bottom:0;
+          
+}
+
+#button1 {
+    width:19%;
+    position:absolute;
+    left:4rem;
+    vertical-align:30rem;
+    font-family:'Indie Flower', cursive;
+    text-align:center;
+    color:#B25A5A;
+    border:1px solid black;
+    text-decoration:none;
+    font-weight:bold;
+    line-height:2rem;
+    background:lightgray;
+    transition:all .3s ease;
+    font-size:1.5rem;
+    margin-top:0.7rem;
+    border-radius: 7px;
+    height:2rem
+}
+#button2 {
+    width:19%;
+    position:absolute;
+    left:32rem;
+    vertical-align:central;
+    font-family:'Indie Flower', cursive;
+    text-align:center;
+    color:#B25A5A;
+    border:1px solid black;
+    text-decoration:none;
+    font-weight:bold;
+    line-height:2rem;
+    background:lightgray;
+    transition:all .3s ease;
+    font-size:1.5rem;
+    margin-top:0.7rem;
+    border-radius: 7px;
+    height:2rem
+}
+#button3 {
+    width:19%;
+    position:absolute;
+    right:4rem;
+    vertical-align:30rem;
+    font-family:'Indie Flower', cursive;
+    text-align:center;
+    color:#B25A5A;
+    border:1px solid black;
+    text-decoration:none;
+    font-weight:bold;
+    line-height:2rem;
+    background:lightgray;
+    transition:all .3s ease;
+    font-size:1.5rem;
+    margin-top:0.7rem;
+    border-radius: 7px;
+    height:2rem
+}

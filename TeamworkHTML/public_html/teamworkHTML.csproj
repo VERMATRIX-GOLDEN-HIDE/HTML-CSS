@@ -57,10 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CSS\story2.css" />
-    <Content Include="CSS\Style.css" />
+    <Content Include="CSS\prez.css" />
+    <Content Include="CSS\teodor.css" />
+    <Content Include="CSS\index.css" />
     <Content Include="CSS\vlado.css" />
-    <Content Include="CSS\X-developers.css" />
+    <Content Include="CSS\nakov.css" />
     <Content Include="IMG\1\1.1.1-bubble.png" />
     <Content Include="IMG\1\1.1.2-bubble.png" />
     <Content Include="IMG\1\1.1.png" />
@@ -69,18 +70,22 @@
     <Content Include="IMG\grass.png" />
     <Content Include="IMG\nakov.jpg" />
     <Content Include="index.html" />
-    <Content Include="nakov.html" />
+    <Content Include="prez2.html" />
+    <Content Include="prez1.html" />
+    <Content Include="prez3.html" />
+    <Content Include="prez4.html" />
+    <Content Include="prez5.html" />
+    <Content Include="prez6.html" />
     <Content Include="script\easing.js" />
     <Content Include="script\jquery.js" />
     <Content Include="script\Script.js" />
     <Content Include="sekretarkata.html" />
-    <Content Include="story2.html" />
     <Content Include="teodor.html" />
     <Content Include="vlado-page2.html" />
     <Content Include="vlado-page3.html" />
     <Content Include="vlado.html" />
     <Content Include="Web.config" />
-    <Content Include="X-developers.html" />
+    <Content Include="nakov.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
