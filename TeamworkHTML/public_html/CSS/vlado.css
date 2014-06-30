@@ -17,44 +17,67 @@ figure, figure div, figure img {
     padding: 0;
 }
 
-a{
-   text-decoration: none;
-   color: black;
-   background-color: #B25A5A;
-}
+
 .footer{
      background-color: #B25A5A;
      height: 35px;     
-     width: 1260px;
+     width: 126rem;
           
 }
 
 #button1 {
-    font-family: 'Indie Flower', cursive;
-    width:300px;
-    border:3px solid red;
-    height:25px;
+    width:19%;
     position:absolute;
-    left:10px;
-    top:645px;
+    left:2rem;
+    vertical-align:central;
+    font-family:'Indie Flower', cursive;
+    text-align:center;
+    color:#B25A5A;
+    border:1px solid black;
+    text-decoration:none;
+    font-weight:bold;
+    line-height:2.7rem;
+    background:lightgray;
+    transition:all .3s ease;    
+    font-size:2rem;
+    margin-top:0.3rem;
+    border-radius: 7px;
 }
 #button2 {
-    font-family: 'Indie Flower', cursive;
-    width:300px;
-    border:3px solid red;
-    height:25px;
-    position:absolute; 
-    left:480px;    
-    top:645px;
+    width:19%;
+    position:absolute;
+    left:50rem;
+    vertical-align:central;
+    font-family:'Indie Flower', cursive;
+    text-align:center;
+    color:#B25A5A;
+    border:1px solid black;
+    text-decoration:none;
+    font-weight:bold;
+    line-height:2.7rem;
+    background:lightgray;
+    transition:all .3s ease;
+    font-size:2rem;
+    margin-top:0.3rem;
+    border-radius: 7px;
 }
 #button3 {
-    font-family: 'Indie Flower', cursive;
-    width:300px;
-    border:3px solid red;
-    height:25px;
+    width:19%;
     position:absolute;
-    left:950px;  
-    top:645px;
+    right:4rem;
+    vertical-align:30rem;
+    font-family:'Indie Flower', cursive;
+    text-align:center;
+    color:#B25A5A;
+    border:1px solid black;
+    text-decoration:none;
+    font-weight:bold;
+    line-height:2.7rem;
+    background:lightgray;
+    transition:all .3s ease;
+    font-size:2rem;
+    margin-top:0.3rem;
+    border-radius: 7px;
 }
 
 
@@ -81,6 +104,7 @@ a{
     background-color: yellow;
     display: inline-block;
     /*margin:200px;*/
+
 }
 
 #bubble1-1-1 {
@@ -532,7 +556,7 @@ a{
     font-size: 1rem;
     display: block;
     visibility: visible;
-    height:240px;
+    height:24rem;
 }
 
 #seven-scene img {
@@ -584,7 +608,7 @@ a{
     font-size: 1rem;
     display: block;
     visibility: visible;
-    height:240px;
+    height:24rem;
     width:200px;
 }
 
@@ -639,7 +663,7 @@ a{
     font-size: 1rem;
     display: block;
     visibility: visible;
-    height:240px;
+    height:24rem;
     width:160px;
 }
 
@@ -695,7 +719,7 @@ a{
     font-size: 1rem;
     display: block;
     visibility: visible;
-    height:240px;
+    height:24rem;
     width:200px;
 }
 
@@ -749,7 +773,7 @@ a{
     font-size: 1rem;
     display: block;
     visibility: visible;
-    height:240px;
+    height:24rem;
     width:140px;
 }
 
@@ -774,7 +798,7 @@ a{
     font-size: 1rem;
     display: block;
     visibility: visible;
-    height:269px;
+    height:26.7rem;
     width:140px;
 }
 
@@ -870,7 +894,7 @@ a{
     font-size: 1rem;
     display: block;
     visibility: visible;
-    height:461px;
+    height:46rem;
     width:255px
 }
 
@@ -1023,7 +1047,7 @@ a{
     font-size: 1rem;
     display: block;
     visibility: visible;
-    height:452px;
+    height:45.1rem;
     }
 
 #fifteenth-scene img {
@@ -1079,7 +1103,7 @@ a{
     font-size: 1rem;
     display: block;
     visibility: visible;
-    height:208px;
+    height:20.7rem;
 }
 
 #sixteenth-scene img {

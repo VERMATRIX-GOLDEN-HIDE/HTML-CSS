@@ -146,11 +146,11 @@ a{
 }
 .footer{
      background-color: #B25A5A;
-     height: 35px;
+     height: 2rem;
      margin-top: 10px;
      margin-left: 20px;
-     margin-right: 10px;
-     width: 1200px; 
+     margin-right: 20px;
+     width: 75rem; 
      font-family: 'Indie Flower', cursive;
      color: black;
      font-weight:bold;    
@@ -168,5 +168,5 @@ a{
 #footer3 {
     position:absolute;
     left:1080px;  
-    top:610px;;
+    top:610px;
 }
