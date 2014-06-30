@@ -1,18 +1,19 @@
 body {
-        text-align: center;
-        background-color: #8A1C00;
-        padding-right: 5%;
-} 
+    text-align: center;
+    background-color: #8A1C00;
+    padding-right: 5%;
+}
+
 #main {
     width: 100%;
     position: relative;
-    margin-left: 1%; 
-    opacity:1;
+    margin-left: 1%;
+    opacity: 1;
 }
 
-#main * {
-    color: #FFFFFF;
-}
+    #main * {
+        color: #FFFFFF;
+    }
 
 .clear {
     clear: both;
@@ -38,18 +39,17 @@ body {
     float: left;
     background-image: url('../IMG/Nakov-marvel.png');
     background-color: #000000;
-    background-size:cover;    
-    width:150px;
-    height: 150px;  
-    opacity:1;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    opacity: 1;
     font-family: 'Indie Flower', cursive;
-    font-weight:700;
-    font-size:35px;
-    color:white;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
     line-height: 160px;
-    text-align:center; 
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;   
-
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #second-link {
@@ -60,13 +60,12 @@ body {
     width: 150px;
     height: 150px;
     font-family: 'Indie Flower', cursive;
-    font-weight:700;
-    font-size:35px;
-    color:white;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
     line-height: 160px;
-    text-align:center; 
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
-    
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #third-link {
@@ -77,31 +76,30 @@ body {
     width: 150px;
     height: 150px;
     font-family: 'Indie Flower', cursive;
-    font-weight:700;
-    font-size:35px;
-    color:white;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
     line-height: 160px;
-    text-align:center; 
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
-    
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #fourth-link {
     float: right;
     background-image: url('../IMG/Petya-marvel.png');
     background-color: #000000;
-    background-size:cover;
+    background-size: cover;
     width: 150px;
     height: 150px;
-    border-bottom-color:white;
-    border-width:5px;
+    border-bottom-color: white;
+    border-width: 5px;
     font-family: 'Indie Flower', cursive;
-    font-weight:700;
-    font-size:35px;
-    color:white;
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
     line-height: 160px;
-    text-align:center; 
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 
@@ -110,14 +108,15 @@ body {
     margin: 0px auto;
     background-image: url('../IMG/new ball1.jpg');
     background-position: center center;
-    background-size:cover;
+    background-size: cover;
     width: 80px;
     height: 80px;
     position: absolute;
     top: 225px;
-    left: 550px;    
+    left: 550px;
 }
-.logo{
+
+.logo {
     font-family: 'Indie Flower', cursive;
     width: 100%;
     margin-top: 10px;
@@ -126,56 +125,72 @@ body {
     font-size: 2em;
     background-color: #B25A5A;
 }
-a{
-   text-decoration: none;
-   color: black;
-   background-color: #B25A5A;
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: #B25A5A;
 }
-.footer{
+
+.footer {
     width: 100%;
     background-color: #B25A5A;
     margin-left: 1%;
 }
-.footerUl{
-    padding:0;
-}
-.footerUl li{
-    display: inline-block;
-    list-style-type: none;
-    padding: 5px 7%;
-}
-.footerUl li:first-child{
-    display: inline-block;
-    list-style-type: none;
-    
-}
-.footerUl li:hover {
-    /*background-color:pink;*/
-    font-size:1.1rem;
-}
-.footerUl li:hover a{
-    background-color:red;
+
+.footerUl {
+    padding: 0;
 }
 
-#rdNakov{
-    visibility:hidden;
-    width:150px;
-    height:1em;
-    padding:0;
-    margin:0;
-    /*text-align:left;*/
-    background-color:transparent;
-    color:red;
-    font-size:0.5em;
-    position:absolute;
-    left:0em;
-    top:5em;
-    margin-bottom:1%;
+    .footerUl li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 5px 7%;
+    }
+
+        .footerUl li:first-child {
+            display: inline-block;
+            list-style-type: none;
+        }
+
+        .footerUl li:hover {
+            /*background-color:pink;*/
+            font-size: 1.1rem;
+        }
+
+            .footerUl li:hover a {
+                background-color: red;
+            }
+
+#rdNakov,#rdTeodor,#rdVlado,#rdPetya {
+    display: inline-block;
+    visibility: hidden;
+    width: 150px;
+    height: 1em;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: red;
+    font-size: 0.5em;
+    vertical-align:top;
 }
 
-@media (max-width: 450px) {
-    #rdNakov{
-        display:normal;
-        visibility:visible;
+@media (max-width: 800px) {
+    #rdNakov,#rdTeodor,#rdVlado,#rdPetya {
+        margin:0;
+        padding:0;
+        text-shadow:none;
+        line-height:2em;
+        visibility: visible;
+        width: 150px;
+        height: 3em;
+        text-align:center;
+        background-color: darkcyan;
+        color: red;
+        font-size: 0.3em;
+        
+    }
+    #first-link,#second-link,#third-link,#fourth-link{
+        margin-bottom:1.5em;
     }
 }
