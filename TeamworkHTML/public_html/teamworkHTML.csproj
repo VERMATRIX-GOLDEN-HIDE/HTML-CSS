@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CSS\prez.css" />
+    <Content Include="CSS\story4.css" />
     <Content Include="CSS\teodor.css" />
     <Content Include="CSS\index.css" />
     <Content Include="CSS\vlado.css" />
@@ -80,6 +81,7 @@
     <Content Include="script\jquery.js" />
     <Content Include="script\Script.js" />
     <Content Include="sekretarkata.html" />
+    <Content Include="story4.html" />
     <Content Include="teodor.html" />
     <Content Include="vlado-page2.html" />
     <Content Include="vlado-page3.html" />
