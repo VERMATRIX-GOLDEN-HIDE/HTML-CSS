@@ -17,7 +17,7 @@ figure, figure div, figure img {
 }
 
 
-.footer {
+/*.footer {
     background-color: #B25A5A;
     height: 35px;
     width: 126rem;
@@ -78,7 +78,7 @@ figure, figure div, figure img {
     font-size: 2rem;
     margin-top: 0.3rem;
     border-radius: 7px;
-}
+}*/
 
 
 /* Първа сцена*/
@@ -1312,5 +1312,6 @@ figure, figure div, figure img {
     #bubble4-23:hover {
         color: red;
         transform: scale(1.8);
+        -ms-transform: scale(1.8);
         -webkit-transform: scale(1.8);
     }
