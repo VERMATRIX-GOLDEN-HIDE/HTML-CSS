@@ -6,7 +6,7 @@
 }
 
 body {
-    /*background-color: yellow;*/
+         background-color: #8A1C00;
 }
 
 figure, figure div, figure img {
@@ -18,8 +18,8 @@ figure, figure div, figure img {
 
 
 .footer2 {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     background-color: #B25A5A;
     width: 100%;
     font-family: 'Indie Flower', cursive;
@@ -27,7 +27,6 @@ figure, figure div, figure img {
 }
 
 .footerBtn {
-    
     display: inline-block;
     width: 15em;
     color: #B25A5A;
@@ -39,18 +38,20 @@ figure, figure div, figure img {
     font-size: 2em;
     border-radius: 0.5em;
     padding: 0.1em 1em;
-    margin:0.25em 10%;
-}
-.footerBtn:hover{
-    color:white;
-    background: red;
+    margin: 0.25em 10%;
 }
 
+    .footerBtn:hover {
+        color: white;
+        background: red;
+    }
+
+figcaption {
+    display: none;
+}
 /* Първа сцена*/
 #responsive1-1 {
     font-size: 1rem;
-    display: block;
-    visibility: hidden;
     height: 150px;
     width: 350px;
 }
@@ -66,7 +67,6 @@ figure, figure div, figure img {
 #first-page {
     overflow: visible;
     position: relative !important;
-    background-color: yellow;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -101,6 +101,7 @@ figure, figure div, figure img {
 
 #bubble1-1-2:hover {
     color: red;
+    z-index: 550;
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
 }
@@ -133,9 +134,7 @@ figure, figure div, figure img {
 /*Втора сцена*/
 #responsive1-2 {
     font-size: 1.3rem;
-    display: block;
-    visibility: visible;
-    width: 525px;
+    width: 153px;
 }
 
 #second-scene img {
@@ -149,7 +148,6 @@ figure, figure div, figure img {
 #second-scene {
     overflow: visible;
     position: relative !important;
-    background-color: aquamarine;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -216,6 +214,7 @@ figure, figure div, figure img {
         left: 4.4em;
         top: 27em;
         color: red;
+        z-index: 6;
         transform: scale(1.2);
         -webkit-transform: scale(1.2);
     }
@@ -225,9 +224,7 @@ figure, figure div, figure img {
 /* Трета сцена*/
 #responsive1-3 {
     font-size: 2.3rem;
-    display: block;
-    visibility: visible;
-    width: 250px;
+    width: 127px;
 }
 
 #third-scene img {
@@ -239,9 +236,7 @@ figure, figure div, figure img {
 }
 
 #third-scene {
-    overflow: visible;
     position: relative !important;
-    background-color: pink;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -283,10 +278,8 @@ figure, figure div, figure img {
 /*Четвърта сцена*/
 #responsive1-4 {
     font-size: 1.5rem;
-    display: block;
-    visibility: visible;
-    width: 535px;
-    height: 5.6rem;
+    width: 169px;
+    height: auto;
 }
 
 #fourth-scene img {
@@ -300,7 +293,6 @@ figure, figure div, figure img {
 #fourth-scene {
     overflow: visible;
     position: relative !important;
-    background-color: orange;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -389,10 +381,8 @@ figure, figure div, figure img {
 /* Пета сцена*/
 #responsive1-5 {
     font-size: 1.8rem;
-    display: block;
-    visibility: visible;
-    width: 350px;
-    height: 2.6rem;
+    width: 215px;
+    height: auto;
 }
 
 #fifth-scene img {
@@ -406,7 +396,6 @@ figure, figure div, figure img {
 #fifth-scene {
     overflow: visible;
     position: relative !important;
-    background-color: blue;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -465,10 +454,8 @@ figure, figure div, figure img {
 /* Шеста сцена*/
 #responsive1-6 {
     font-size: 1.7rem;
-    display: block;
-    visibility: visible;
-    width: 370px;
-    height: 2.7rem;
+    width: 245px;
+    height: auto;
 }
 
 #sixth-scene img {
@@ -482,7 +469,6 @@ figure, figure div, figure img {
 #sixth-scene {
     overflow: visible;
     position: relative !important;
-    background-color: purple;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -520,8 +506,6 @@ figure, figure div, figure img {
 /*Седма сцена*/
 #responsive1-7 {
     font-size: 2rem;
-    display: block;
-    visibility: visible;
     height: 23rem;
 }
 
@@ -536,7 +520,6 @@ figure, figure div, figure img {
 #seven-scene {
     overflow: visible;
     position: relative !important;
-    background-color: yellow;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -572,8 +555,6 @@ figure, figure div, figure img {
 /*Осма сцена*/
 #responsive1-8 {
     font-size: 2rem;
-    display: block;
-    visibility: visible;
     height: 23.2rem;
     width: 200px;
 }
@@ -589,7 +570,6 @@ figure, figure div, figure img {
 #eight-scene {
     overflow: visible;
     position: relative !important;
-    background-color: blue;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -627,8 +607,6 @@ figure, figure div, figure img {
 /*Девета сцена*/
 #responsive1-9 {
     font-size: 2rem;
-    display: block;
-    visibility: visible;
     height: 23.2rem;
     width: 160px;
 }
@@ -644,7 +622,6 @@ figure, figure div, figure img {
 #ninth-scene {
     overflow: visible;
     position: relative !important;
-    background-color: red;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -683,8 +660,6 @@ figure, figure div, figure img {
 /*Десета сцена*/
 #responsive1-10 {
     font-size: 2rem;
-    display: block;
-    visibility: visible;
     height: 23.2rem;
     width: 200px;
 }
@@ -700,7 +675,6 @@ figure, figure div, figure img {
 #tenth-scene {
     overflow: visible;
     position: relative !important;
-    background-color: darkgreen;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -737,8 +711,6 @@ figure, figure div, figure img {
 /*Единадесета сцена*/
 #responsive1-11 {
     font-size: 2rem;
-    display: block;
-    visibility: visible;
     height: 23.2rem;
     width: 140px;
 }
@@ -754,7 +726,6 @@ figure, figure div, figure img {
 #eleventh-scene {
     overflow: visible;
     position: relative !important;
-    background-color: #D3D3D3;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -762,8 +733,6 @@ figure, figure div, figure img {
 /*Дванадесета сцена*/
 #responsive1-12 {
     font-size: 2rem;
-    display: block;
-    visibility: visible;
     height: 25.7rem;
     width: 140px;
 }
@@ -779,7 +748,6 @@ figure, figure div, figure img {
 #twelfth-scene {
     overflow: visible;
     position: relative !important;
-    background-color: lightgreen;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -833,8 +801,6 @@ figure, figure div, figure img {
 /*Тринадесета сцена*/
 #responsive1-13 {
     font-size: 1rem;
-    display: block;
-    visibility: visible;
 }
 
 #thirteenth-scene img {
@@ -848,7 +814,6 @@ figure, figure div, figure img {
 #thirteenth-scene {
     overflow: visible;
     position: relative !important;
-    background-color: grey;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -857,8 +822,6 @@ figure, figure div, figure img {
 /*Четиринадесета сцена*/
 #responsive1-14 {
     font-size: 2rem;
-    display: block;
-    visibility: visible;
     height: 45rem;
     width: 255px;
 }
@@ -874,7 +837,6 @@ figure, figure div, figure img {
 #fourteenth-scene {
     overflow: visible;
     position: relative !important;
-    background-color: lightcoral;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -1010,8 +972,6 @@ figure, figure div, figure img {
 /*Петнадесета сцена*/
 #responsive1-15 {
     font-size: 2rem;
-    display: block;
-    visibility: visible;
     height: 44.1rem;
 }
 
@@ -1026,7 +986,6 @@ figure, figure div, figure img {
 #fifteenth-scene {
     overflow: visible;
     position: relative !important;
-    background-color: yellowgreen;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -1066,8 +1025,6 @@ figure, figure div, figure img {
 /*Шестнадесета сцена*/
 #responsive1-16 {
     font-size: 1.8rem;
-    display: block;
-    visibility: visible;
     height: 19.9rem;
 }
 
@@ -1082,7 +1039,6 @@ figure, figure div, figure img {
 #sixteenth-scene {
     overflow: visible;
     position: relative !important;
-    background-color: mediumpurple;
     display: inline-block;
     /*margin:200px;*/
 }
@@ -1212,150 +1168,33 @@ figure, figure div, figure img {
             margin: 0;
         }
 
-@media (max-width: 450px) {
-    .ProportionateFont {
-        animation: SmallerFont 0.3s;
-        animation-fill-mode: forwards;
-        -webkit-animation: SmallerFont 0.3s;
-        -webkit-animation-fill-mode: forwards;
+@media (max-width: 500px) {
+    figure {
+        background-color: #8A1C00;
     }
 
-    #responsive1-1 {
-        font-size: 1em;
+        figure div {
+            visibility: hidden;
+        }
+
+    figcaption {
+        display: block;
         visibility: visible;
     }
-
-    #bubble1-1-1 {
-        visibility: hidden;
-        background-size: cover;
-        background-repeat: no-repeat;
-        left: 11em;
-        top: 0.8em;
-        width: 8em;
-        height: 7em;
-        z-index: 5;
-    }
-
-        #bubble1-1-1 p {
-            visibility: hidden;
-            /*border: 1px solid #000;*/
-            font-size: 1em;
-            padding-left: 0.2em;
-            padding-right: 0.5em;
-            padding-top: 0.6em;
-            z-index: 6;
-            margin: 0;
-        }
-
-    #bubble1-1-2 {
-        visibility: hidden;
-        background-size: cover;
-        width: 12em;
-        height: 40%;
-        font-size: 0.8em;
-        left: 25em;
-        top: 0.8em;
-    }
-
-        #bubble1-1-2 p {
-            visibility: hidden;
-            font-size: 1em;
-            padding-left: 0.75em;
-            padding-right: 0.75em;
-            padding-top: 1em;
-        }
 }
 
 @media (min-width: 1280px) {
-    .ProportionateFont {
-        animation: LargerFont 0.3s;
-        animation-fill-mode: forwards;
-        -webkit-animation: LargerFont 0.3s;
-        -webkit-animation-fill-mode: forwards;
+
+    figure {
+        background-color: #8A1C00;
     }
 
-    #responsive1-1 {
-        font-size: 2em;
+        figure div {
+            visibility: hidden;
+        }
+
+    figcaption {
+        display: block;
         visibility: visible;
-    }
-
-    #bubble1-1-1 {
-        visibility: hidden;
-        background-size: cover;
-        background-repeat: no-repeat;
-        left: 11em;
-        top: 0.8em;
-        width: 8em;
-        height: 7em;
-        z-index: 5;
-    }
-
-        #bubble1-1-1 p {
-            visibility: hidden;
-            /*border: 1px solid #000;*/
-            font-size: 1em;
-            padding-left: 0.2em;
-            padding-right: 0.5em;
-            padding-top: 0.6em;
-            z-index: 6;
-            margin: 0;
-        }
-
-    #bubble1-1-2 {
-        visibility: hidden;
-        background-size: cover;
-        width: 12em;
-        height: 40%;
-        font-size: 0.8em;
-        left: 25em;
-        top: 0.8em;
-    }
-
-        #bubble1-1-2 p {
-            visibility: hidden;
-            font-size: 3em;
-            padding-left: 0.75em;
-            padding-right: 0.75em;
-            padding-top: 1em;
-        }
-}
-
-@keyframes SmallerFont {
-    0% {
-        font-size: 24px;
-    }
-
-    100% {
-        font-size: 12px;
-    }
-}
-
-@-webkit-keyframes SmallerFont {
-    0% {
-        font-size: 24px;
-    }
-
-    100% {
-        font-size: 12px;
-    }
-}
-
-@keyframes LargerFont {
-    0% {
-        font-size: 12px;
-    }
-
-    100% {
-        font-size: 24px;
-    }
-}
-
-@-webkit-keyframes LargerFont {
-    0% {
-        font-size: 12px;
-    }
-
-    100% {
-        font-size: 24px;
     }
 }
