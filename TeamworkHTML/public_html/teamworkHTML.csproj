@@ -80,7 +80,6 @@
     <Content Include="script\easing.js" />
     <Content Include="script\jquery.js" />
     <Content Include="script\Script.js" />
-    <Content Include="sekretarkata.html" />
     <Content Include="story4.html" />
     <Content Include="teodor.html" />
     <Content Include="vlado-page2.html" />
