@@ -75,7 +75,7 @@ figure {
     }
 
     figure:hover figcaption {
-        font-size: 20px;
+        font-size: 1.7em;
         transform: scale(1.2);
     }
 }
