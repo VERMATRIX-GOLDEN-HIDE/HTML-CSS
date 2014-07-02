@@ -22,6 +22,8 @@ figure, figure div, figure img {
 .footer2 {
     margin:0;
     padding:0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #B25A5A;
     width: 100%;
     font-family: 'Indie Flower', cursive;
@@ -439,3 +441,29 @@ figcaption{
     }
 }
 
+@media (min-width: 1390px) {
+
+    figcaption {
+      display: block;
+    }
+    figure div {
+        display: none;
+    }
+}
+.logo {
+    font-family: 'Indie Flower', cursive;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    font-size: 30px;
+    background-color: #B25A5A;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    background-color: #B25A5A;
+}
