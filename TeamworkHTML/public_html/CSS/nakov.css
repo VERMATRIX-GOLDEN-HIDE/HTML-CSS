@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     background-color: black;
+    text-align: center;
 }
 
 figure {
@@ -13,8 +14,9 @@ figure {
     border-color: white;
     border-radius: 2rem;
     margin: 0;
-    margin-bottom: 10rem;
-    margin-right: 10rem;
+    margin-bottom: 4em;
+    /*margin-right: 10rem;*/
+    margin:2em 5em;
     padding: 0;
     display: inline-block;
     max-width: 100%;
@@ -23,65 +25,73 @@ figure {
 
     figure img {
         margin: 0;
-        margin-left: 3rem;
-        margin-bottom: 3rem;
+        margin-left: 5em;
+        margin-bottom: 2sem;
         padding: 0;
         max-width: 100%;
-        max-height:100%;
+        max-height: 100%;
         float: right;
-        
     }
 
     figure figcaption {
         padding: 2rem;
-        max-width: 70rem;
-        line-height: 5rem;
-        font-size: 5rem;
+        max-width: 950px; /*70rem;*/
+        line-height: 2em;
+        font-size: 5em;
         color: white;
+        text-align: left;
     }
 
-    figure:hover figcaption{
-        color:blue;
-        font-size:6.5rem;
-                line-height: 6.5rem;
+    figure:hover figcaption {
+        color: blue;
+        font-size: 6em;
+        /*line-height: 2.5em;*/
         transform: scale(1.2);
     }
 
-@media (max-width: 550px) {
+@media (max-width: 500px) {
 
     figure figcaption {
-        padding: 0.5rem;
-        line-height: 2rem;
-        font-size: 1rem;
+        padding: 0.2em;
+        line-height: 1.5em;
+        font-size: 1em;
         color: white;
-        /*transform: scale(0.5);
-        -webkit-transform: scale(0.5);*/
+        text-align: left;
+    }
+
+    figure:hover figcaption {
+        color: blue;
+        font-size: 2em;
+        /*line-height: 2.5em;*/
+        transform: scale(1.2);
     }
 }
-.footer{
-     background-color: #B25A5A;
-     height: 45px;     
-     width: 126rem;
-          
+
+.footer2 {
+    margin: 0;
+    padding: 0;
+    background-color: #B25A5A;
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
 }
 
-
-#button2 {
-    width:19%;
-    position:absolute;
-    left:50rem;
-    vertical-align:central;
-    font-family:'Indie Flower', cursive;
-    text-align:center;
-    color:#B25A5A;
-    border:1px solid black;
-    text-decoration:none;
-    font-weight:bold;
-    line-height:2.7rem;
-    background:lightgray;
-    transition:all .3s ease;
-    font-size:2rem;
-    margin-top:0.8rem;
-    border-radius: 7px;
+.footerBtn {
+    display: inline-block;
+    width: 15em;
+    color: #B25A5A;
+    border: 1px solid black;
+    text-decoration: none;
+    font-weight: bold;
+    background: #D3D3D3;
+    transition: all .3s ease;
+    font-size: 2em;
+    border-radius: 0.5em;
+    padding: 0.1em 1em;
+    margin: 0.25em 10%;
 }
 
+    .footerBtn:hover {
+        color: white;
+        background: red;
+    }
