@@ -6,6 +6,10 @@
 }
 body {
     background-color: #8A1C00;
+    margin: 0; 
+    padding: 0;
+    text-align: center;
+    width: 100%;
 }
 
 figure, figure div, figure img {
