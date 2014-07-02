@@ -14,35 +14,35 @@ figure, figure div, figure img {
     margin: 0;
     padding: 0;
 }
-.footer{
-     background-color: #B25A5A;
-     height: 4.5rem;       
-     width:121.3rem;
-           
+
+.footer2 {
+    margin:0;
+    padding:0;
+    background-color: #B25A5A;
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
 }
 
-
-#button2 {
-    width:19%;
-    position:absolute;
-    left:45rem;
-    vertical-align:central;
-    font-family:'Indie Flower', cursive;
-    text-align:center;
-    color:#B25A5A;
-    border:1px solid black;
-    text-decoration:none;
-    font-weight:bold;
-    line-height:2.7rem;
-    background:lightgray;
-    transition:all .3s ease;
-    font-size:2rem;
-    margin-top:0.8rem;
-    border-radius: 0.6rem;
-    margin-bottom:0;
-
+.footerBtn {
+    
+    display: inline-block;
+    width: 15em;
+    color: #B25A5A;
+    border: 1px solid black;
+    text-decoration: none;
+    font-weight: bold;
+    background: #D3D3D3;
+    transition: all .3s ease;
+    font-size: 2em;
+    border-radius: 0.5em;
+    padding: 0.1em 1em;
+    margin:0.25em 10%;
 }
-
+.footerBtn:hover{
+    color:white;
+    background: red;
+}
 
 
 /* Първа сцена - Исторя 2*/

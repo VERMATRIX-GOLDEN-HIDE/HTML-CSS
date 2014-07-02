@@ -3,7 +3,6 @@
     font-size: 62.5%; /*20px;*/
     padding: 0;
     margin: 0;
-    width:1260px;
 }
 
 body {
@@ -18,76 +17,42 @@ figure, figure div, figure img {
 }
 
 
-.footer{
-     background-color: #B25A5A;
-     height: 35px;     
-     width: 126rem;
-          
+.footer2 {
+    margin:0;
+    padding:0;
+    background-color: #B25A5A;
+    width: 100%;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
 }
 
-#button1 {
-    width:19%;
-    position:absolute;
-    left:2rem;
-    vertical-align:central;
-    font-family:'Indie Flower', cursive;
-    text-align:center;
-    color:#B25A5A;
-    border:1px solid black;
-    text-decoration:none;
-    font-weight:bold;
-    line-height:2.7rem;
-    background:#D3D3D3;
-    transition:all .3s ease;    
-    font-size:2rem;
-    margin-top:0.3rem;
-    border-radius: 7px;
+.footerBtn {
+    
+    display: inline-block;
+    width: 15em;
+    color: #B25A5A;
+    border: 1px solid black;
+    text-decoration: none;
+    font-weight: bold;
+    background: #D3D3D3;
+    transition: all .3s ease;
+    font-size: 2em;
+    border-radius: 0.5em;
+    padding: 0.1em 1em;
+    margin:0.25em 10%;
 }
-#button2 {
-    width:19%;
-    position:absolute;
-    left:50rem;
-    vertical-align:central;
-    font-family:'Indie Flower', cursive;
-    text-align:center;
-    color:#B25A5A;
-    border:1px solid black;
-    text-decoration:none;
-    font-weight:bold;
-    line-height:2.7rem;
-    background:#D3D3D3;
-    transition:all .3s ease;
-    font-size:2rem;
-    margin-top:0.3rem;
-    border-radius: 7px;
+.footerBtn:hover{
+    color:white;
+    background: red;
 }
-#button3 {
-    width:19%;
-    position:absolute;
-    right:4rem;
-    vertical-align:30rem;
-    font-family:'Indie Flower', cursive;
-    text-align:center;
-    color:#B25A5A;
-    border:1px solid black;
-    text-decoration:none;
-    font-weight:bold;
-    line-height:2.7rem;
-    background:#D3D3D3;
-    transition:all .3s ease;
-    font-size:2rem;
-    margin-top:0.3rem;
-    border-radius: 7px;
-}
-
 
 /* Първа сцена*/
 #responsive1-1 {
     font-size: 1rem;
     display: block;
     visibility: hidden;
-    height:150px;
-    width:350px;
+    height: 150px;
+    width: 350px;
 }
 
 #first-page img {
@@ -104,7 +69,6 @@ figure, figure div, figure img {
     background-color: yellow;
     display: inline-block;
     /*margin:200px;*/
-
 }
 
 #bubble1-1-1 {
@@ -171,7 +135,7 @@ figure, figure div, figure img {
     font-size: 1.3rem;
     display: block;
     visibility: visible;
-    width:525px;
+    width: 525px;
 }
 
 #second-scene img {
@@ -263,7 +227,7 @@ figure, figure div, figure img {
     font-size: 2.3rem;
     display: block;
     visibility: visible;
-    width:250px;
+    width: 250px;
 }
 
 #third-scene img {
@@ -321,8 +285,8 @@ figure, figure div, figure img {
     font-size: 1.5rem;
     display: block;
     visibility: visible;
-    width:535px;
-    height:5.6rem;
+    width: 535px;
+    height: 5.6rem;
 }
 
 #fourth-scene img {
@@ -427,8 +391,8 @@ figure, figure div, figure img {
     font-size: 1.8rem;
     display: block;
     visibility: visible;
-    width:350px;
-    height:2.6rem;
+    width: 350px;
+    height: 2.6rem;
 }
 
 #fifth-scene img {
@@ -503,8 +467,8 @@ figure, figure div, figure img {
     font-size: 1.7rem;
     display: block;
     visibility: visible;
-    width:370px;
-   height:2.7rem;
+    width: 370px;
+    height: 2.7rem;
 }
 
 #sixth-scene img {
@@ -558,7 +522,7 @@ figure, figure div, figure img {
     font-size: 2rem;
     display: block;
     visibility: visible;
-    height:23rem;
+    height: 23rem;
 }
 
 #seven-scene img {
@@ -610,8 +574,8 @@ figure, figure div, figure img {
     font-size: 2rem;
     display: block;
     visibility: visible;
-    height:23.2rem;
-    width:200px;
+    height: 23.2rem;
+    width: 200px;
 }
 
 #eight-scene img {
@@ -665,8 +629,8 @@ figure, figure div, figure img {
     font-size: 2rem;
     display: block;
     visibility: visible;
-    height:23.2rem;
-    width:160px;
+    height: 23.2rem;
+    width: 160px;
 }
 
 #ninth-scene img {
@@ -721,8 +685,8 @@ figure, figure div, figure img {
     font-size: 2rem;
     display: block;
     visibility: visible;
-    height:23.2rem;
-    width:200px;
+    height: 23.2rem;
+    width: 200px;
 }
 
 #tenth-scene img {
@@ -775,8 +739,8 @@ figure, figure div, figure img {
     font-size: 2rem;
     display: block;
     visibility: visible;
-    height:23.2rem;
-    width:140px;
+    height: 23.2rem;
+    width: 140px;
 }
 
 #eleventh-scene img {
@@ -800,8 +764,8 @@ figure, figure div, figure img {
     font-size: 2rem;
     display: block;
     visibility: visible;
-    height:25.7rem;
-    width:140px;
+    height: 25.7rem;
+    width: 140px;
 }
 
 #twelfth-scene img {
@@ -871,7 +835,6 @@ figure, figure div, figure img {
     font-size: 1rem;
     display: block;
     visibility: visible;
-    
 }
 
 #thirteenth-scene img {
@@ -896,8 +859,8 @@ figure, figure div, figure img {
     font-size: 2rem;
     display: block;
     visibility: visible;
-    height:45rem;
-    width:255px
+    height: 45rem;
+    width: 255px;
 }
 
 #fourteenth-scene img {
@@ -1049,8 +1012,8 @@ figure, figure div, figure img {
     font-size: 2rem;
     display: block;
     visibility: visible;
-    height:44.1rem;
-    }
+    height: 44.1rem;
+}
 
 #fifteenth-scene img {
     margin: 0;
@@ -1105,7 +1068,7 @@ figure, figure div, figure img {
     font-size: 1.8rem;
     display: block;
     visibility: visible;
-    height:19.9rem;
+    height: 19.9rem;
 }
 
 #sixteenth-scene img {
