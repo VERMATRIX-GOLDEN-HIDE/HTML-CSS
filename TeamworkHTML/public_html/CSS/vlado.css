@@ -6,8 +6,8 @@
 }
 
 body {
-         background-color: #8A1C00;
-         text-align:center;
+    background-color: #8A1C00;
+    text-align: center;
 }
 
 figure, figure div, figure img {
@@ -498,7 +498,7 @@ figcaption {
 /*Седма сцена*/
 #responsive1-7 {
     font-size: 2rem;
-    max-width:550px;
+    max-width: 550px;
 }
 
 #seven-scene img {
@@ -578,8 +578,8 @@ figcaption {
         /*border: 1px solid #000;*/
         display: block;
         font-size: 1.4em;
-        padding-left: 1em;
-        padding-right: 0.5em;
+        padding-left: 0.5em;
+        padding-right: 5.5em;
         padding-top: 1em;
         z-index: 6;
         margin: 0;
@@ -680,7 +680,7 @@ figcaption {
         display: block;
         font-size: 1em;
         padding-left: 1em;
-        padding-right: 0.5em;
+        padding-right: 2.5em;
         padding-top: 3.5em;
         z-index: 6;
         margin: 0;
@@ -696,7 +696,7 @@ figcaption {
 /*Единадесета сцена*/
 #responsive1-11 {
     font-size: 1.8rem;
-    max-width:106px;
+    max-width: 106px;
 }
 
 #eleventh-scene img {
@@ -782,7 +782,7 @@ figcaption {
 /*Тринадесета сцена*/
 #responsive1-13 {
     font-size: 1rem;
-    max-width:64px;
+    max-width: 64px;
 }
 
 #thirteenth-scene img {
@@ -951,7 +951,7 @@ figcaption {
 /*Петнадесета сцена*/
 #responsive1-15 {
     font-size: 2rem;
-    max-width:230px;
+    max-width: 230px;
 }
 
 #fifteenth-scene img {
@@ -1188,6 +1188,7 @@ figcaption {
     margin-bottom: 10px;
     text-align: center;
 }
+
 a {
     text-decoration: none;
     color: black;

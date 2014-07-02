@@ -1,10 +1,29 @@
 ﻿html, body {
     width: 100%;
-    font-size: 62.5%; /*20px;*/
+    font-size: 62.5%;
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: #8A1C00;
     text-align: center;
+}
+.logo {
+    font-family: 'Indie Flower', cursive;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    font-size: 30px;
+    background-color: #B25A5A;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: #B25A5A;
 }
 
 figure {
@@ -26,7 +45,7 @@ figure {
     figure img {
         margin: 0;
         margin-left: 5em;
-        margin-bottom: 2sem;
+        margin-bottom: 2em;
         padding: 0;
         max-width: 100%;
         max-height: 100%;
@@ -42,15 +61,11 @@ figure {
         text-align: left;
     }
 
-    figure:hover figcaption {
-        color: blue;
-        font-size: 6em;
-        /*line-height: 2.5em;*/
-        transform: scale(1.2);
-    }
-
 @media (max-width: 500px) {
-
+    figure{
+        overflow:hidden;
+        border-width:0.5em;
+    }
     figure figcaption {
         padding: 0.2em;
         line-height: 1.5em;
@@ -60,9 +75,7 @@ figure {
     }
 
     figure:hover figcaption {
-        color: blue;
-        font-size: 2em;
-        /*line-height: 2.5em;*/
+        font-size: 20px;
         transform: scale(1.2);
     }
 }
@@ -70,6 +83,8 @@ figure {
 .footer2 {
     margin: 0;
     padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #B25A5A;
     width: 100%;
     font-family: 'Indie Flower', cursive;

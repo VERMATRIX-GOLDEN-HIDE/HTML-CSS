@@ -5,8 +5,17 @@
     margin: 0;
 }
 
+   figcaption {
+        display: none;
+        
+    }
+
 body {
-    /*background-color: yellow;*/
+    background-color: #8A1C00;
+    margin: 0; 
+    padding: 0;
+    text-align: center;
+    width: 100%;
 }
 
 figure, figure div, figure img {
@@ -18,6 +27,8 @@ figure, figure div, figure img {
 
 .footer2 {
     margin:0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding:0;
     background-color: #B25A5A;
     width: 100%;
@@ -44,75 +55,8 @@ figure, figure div, figure img {
     color:white;
     background: red;
 }
-
-/*.footer {
-    background-color: #B25A5A;
-    height: 35px;
-    width: 126rem;
-}
-
-#button1 {
-    width: 19%;
-    position: absolute;
-    left: 2rem;
-    vertical-align: central;
-    font-family: 'Indie Flower', cursive;
-    text-align: center;
-    color: #B25A5A;
-    border: 1px solid black;
-    text-decoration: none;
-    font-weight: bold;
-    line-height: 2.7rem;
-    background: lightgray;
-    transition: all .3s ease;
-    font-size: 2rem;
-    margin-top: 0.3rem;
-    border-radius: 7px;
-}
-
-#button2 {
-    width: 19%;
-    position: absolute;
-    left: 50rem;
-    vertical-align: central;
-    font-family: 'Indie Flower', cursive;
-    text-align: center;
-    color: #B25A5A;
-    border: 1px solid black;
-    text-decoration: none;
-    font-weight: bold;
-    line-height: 2.7rem;
-    background: lightgray;
-    transition: all .3s ease;
-    font-size: 2rem;
-    margin-top: 0.3rem;
-    border-radius: 7px;
-}
-
-#button3 {
-    width: 19%;
-    position: absolute;
-    right: 4rem;
-    vertical-align: 30rem;
-    font-family: 'Indie Flower', cursive;
-    text-align: center;
-    color: #B25A5A;
-    border: 1px solid black;
-    text-decoration: none;
-    font-weight: bold;
-    line-height: 2.7rem;
-    background: lightgray;
-    transition: all .3s ease;
-    font-size: 2rem;
-    margin-top: 0.3rem;
-    border-radius: 7px;
-}*/
-
-
-/* Първа сцена*/
 #responsive4-1 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*height:150px;
     width:350px;*/
@@ -164,7 +108,6 @@ figure, figure div, figure img {
 /* Втора сцена*/
 #responsive4-2 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*height:150px;
     width:350px;*/
@@ -218,7 +161,6 @@ figure, figure div, figure img {
 /* Трета сцена*/
 #responsive4-3 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*height:150px;
     width:350px;*/
@@ -270,7 +212,6 @@ figure, figure div, figure img {
 /* Четвърта сцена*/
 #responsive4-4 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*height:150px;
     width:350px;*/
@@ -322,10 +263,7 @@ figure, figure div, figure img {
 /* Пета сцена*/
 #responsive4-5 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
-    /*height:150px;
-    width:350px;*/
 }
 
 #fifth-scene4 img {
@@ -375,7 +313,6 @@ figure, figure div, figure img {
 /* Шеста сцена*/
 #responsive4-6 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*height:150px;
     width:350px;*/
@@ -428,7 +365,6 @@ figure, figure div, figure img {
 /* Седма сцена*/
 #responsive4-7 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*height:150px;
     width:350px;*/
@@ -480,7 +416,6 @@ figure, figure div, figure img {
 /* Осма сцена*/
 #responsive4-8 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*height:150px;
     width:350px;*/
@@ -547,7 +482,6 @@ figure, figure div, figure img {
 /* Девета сцена*/
 #responsive4-9 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*height:150px;
     width:350px;*/
@@ -601,7 +535,6 @@ figure, figure div, figure img {
 /* Десета сцена*/
 #responsive4-10 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*height:150px;
     width:350px;*/
@@ -655,7 +588,6 @@ figure, figure div, figure img {
 /* Единадесета сцена*/
 #responsive4-11 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*height:150px;
     width:350px;*/
@@ -709,7 +641,6 @@ figure, figure div, figure img {
 /* Дванадесета сцена*/
 #responsive4-12 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*height:150px;
     width:350px;*/
@@ -764,7 +695,6 @@ figure, figure div, figure img {
 /* Тринадесета сцена*/
 #responsive4-13 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*width: 142px;*/
 }
@@ -817,7 +747,6 @@ figure, figure div, figure img {
 /* Четиринадесета сцена*/
 #responsive4-14 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*width: 142px;*/
 }
@@ -870,7 +799,6 @@ figure, figure div, figure img {
 /* Шестнадесета сцена*/
 #responsive4-16 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*width: 142px;*/
 }
@@ -925,7 +853,6 @@ figure, figure div, figure img {
 /* Седемнадесета сцена*/
 #responsive4-17 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     width: 245px;
 }
@@ -980,7 +907,6 @@ figure, figure div, figure img {
 /* Осемнадесета сцена*/
 #responsive4-18 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     width: 245px;
 }
@@ -1048,7 +974,6 @@ figure, figure div, figure img {
 /* Деветнадесета сцена*/
 #responsive4-19 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     width: 245px;
 }
@@ -1113,7 +1038,6 @@ figure, figure div, figure img {
 /* Двадесета сцена*/
 #responsive4-20 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*width: 245px;*/
 }
@@ -1167,7 +1091,6 @@ figure, figure div, figure img {
 /* Двадесета сцена(a)*/
 #responsive4-20a {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*width: 245px;*/
 }
@@ -1192,7 +1115,6 @@ figure, figure div, figure img {
 /* Двадесет и първа сцена*/
 #responsive4-21 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*width: 245px;*/
 }
@@ -1245,7 +1167,6 @@ figure, figure div, figure img {
 /* Двадесет и втора сцена*/
 #responsive4-22 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*width: 245px;*/
 }
@@ -1297,7 +1218,6 @@ figure, figure div, figure img {
 /* Двадесет и трета сцена*/
 #responsive4-23 {
     font-size: 1rem;
-    display: block;
     visibility: visible;
     /*width: 245px;*/
 }
@@ -1343,3 +1263,38 @@ figure, figure div, figure img {
         -ms-transform: scale(1.8);
         -webkit-transform: scale(1.8);
     }
+.logo {
+    font-family: 'Indie Flower', cursive;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    font-size: 30px;
+    background-color: #B25A5A;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    background-color: #B25A5A;
+}
+@media (max-width: 800px) {
+    figcaption {
+        display: block;   
+    }
+    figure div {
+        display: none;
+    }
+}
+
+@media (min-width: 1390px) {
+
+    figcaption {
+      display: block;
+    }
+    figure div {
+        display: none;
+    }
+}
