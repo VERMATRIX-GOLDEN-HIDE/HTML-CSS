@@ -52,23 +52,19 @@ figcaption {
 /* Първа сцена*/
 #responsive1-1 {
     font-size: 1rem;
-    height: 150px;
-    width: 350px;
+    max-width: 350px;
 }
 
 #first-page img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
-    height: auto;
 }
 
 #first-page {
-    overflow: visible;
     position: relative !important;
     display: inline-block;
-    /*margin:200px;*/
+    /*margin:0 auto;*/
 }
 
 #bubble1-1-1 {
@@ -109,7 +105,6 @@ figcaption {
 #bubble1-1-2 {
     background-image: url("../IMG/1/1.1.2-bubble.png");
     background-repeat: no-repeat;
-    display: inline-block;
     width: 19em;
     height: 15em;
     font-size: 1em;
@@ -134,14 +129,13 @@ figcaption {
 /*Втора сцена*/
 #responsive1-2 {
     font-size: 1.3rem;
-    width: 153px;
+    max-width: 153px;
 }
 
 #second-scene img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
     height: auto;
 }
 
@@ -224,14 +218,13 @@ figcaption {
 /* Трета сцена*/
 #responsive1-3 {
     font-size: 2.3rem;
-    width: 127px;
+    max-width: 127px;
 }
 
 #third-scene img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
     height: auto;
 }
 
@@ -278,7 +271,7 @@ figcaption {
 /*Четвърта сцена*/
 #responsive1-4 {
     font-size: 1.5rem;
-    width: 169px;
+    max-width: 169px;
     height: auto;
 }
 
@@ -286,7 +279,6 @@ figcaption {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
     height: auto;
 }
 
@@ -381,7 +373,7 @@ figcaption {
 /* Пета сцена*/
 #responsive1-5 {
     font-size: 1.8rem;
-    width: 215px;
+    max-width: 215px;
     height: auto;
 }
 
@@ -389,7 +381,6 @@ figcaption {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
     height: auto;
 }
 
@@ -454,15 +445,13 @@ figcaption {
 /* Шеста сцена*/
 #responsive1-6 {
     font-size: 1.7rem;
-    width: 245px;
-    height: auto;
+    max-width: 245px;
 }
 
 #sixth-scene img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
     height: auto;
 }
 
@@ -506,14 +495,13 @@ figcaption {
 /*Седма сцена*/
 #responsive1-7 {
     font-size: 2rem;
-    height: 23rem;
+    max-width:550px;
 }
 
 #seven-scene img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
     height: auto;
 }
 
@@ -555,15 +543,13 @@ figcaption {
 /*Осма сцена*/
 #responsive1-8 {
     font-size: 2rem;
-    height: 23.2rem;
-    width: 200px;
+    max-width: 110px;
 }
 
 #eight-scene img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
     height: auto;
 }
 
@@ -607,15 +593,13 @@ figcaption {
 /*Девета сцена*/
 #responsive1-9 {
     font-size: 2rem;
-    height: 23.2rem;
-    width: 160px;
+    max-width: 103px;
 }
 
 #ninth-scene img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
     height: auto;
 }
 
@@ -660,15 +644,13 @@ figcaption {
 /*Десета сцена*/
 #responsive1-10 {
     font-size: 2rem;
-    height: 23.2rem;
-    width: 200px;
+    max-width: 106px;
 }
 
 #tenth-scene img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
     height: auto;
 }
 
@@ -710,16 +692,14 @@ figcaption {
 
 /*Единадесета сцена*/
 #responsive1-11 {
-    font-size: 2rem;
-    height: 23.2rem;
-    width: 140px;
+    font-size: 1.8rem;
+    max-width:106px;
 }
 
 #eleventh-scene img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
     height: auto;
 }
 
@@ -733,15 +713,13 @@ figcaption {
 /*Дванадесета сцена*/
 #responsive1-12 {
     font-size: 2rem;
-    height: 25.7rem;
-    width: 140px;
+    max-width: 152px;
 }
 
 #twelfth-scene img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
     height: auto;
 }
 
@@ -801,13 +779,13 @@ figcaption {
 /*Тринадесета сцена*/
 #responsive1-13 {
     font-size: 1rem;
+    max-width:64px;
 }
 
 #thirteenth-scene img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
     height: auto;
 }
 
@@ -822,15 +800,13 @@ figcaption {
 /*Четиринадесета сцена*/
 #responsive1-14 {
     font-size: 2rem;
-    height: 45rem;
-    width: 255px;
+    max-width: 230px;
 }
 
 #fourteenth-scene img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
     height: auto;
 }
 
@@ -972,14 +948,13 @@ figcaption {
 /*Петнадесета сцена*/
 #responsive1-15 {
     font-size: 2rem;
-    height: 44.1rem;
+    max-width:230px;
 }
 
 #fifteenth-scene img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
     height: auto;
 }
 
@@ -1024,16 +999,14 @@ figcaption {
 
 /*Шестнадесета сцена*/
 #responsive1-16 {
-    font-size: 1.8rem;
-    height: 19.9rem;
+    font-size: 1.2rem;
+    /*max-width:530px;*/
 }
 
 #sixteenth-scene img {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    /*min-width: 250px;*/
-    height: auto;
 }
 
 #sixteenth-scene {
@@ -1174,7 +1147,7 @@ figcaption {
     }
 
         figure div {
-            visibility: hidden;
+            display: none;
         }
 
     figcaption {
@@ -1183,7 +1156,7 @@ figcaption {
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1390px) {
 
     figure {
         background-color: #8A1C00;
