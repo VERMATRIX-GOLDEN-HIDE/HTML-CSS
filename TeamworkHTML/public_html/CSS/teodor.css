@@ -5,7 +5,7 @@
     margin: 0;
 }
 body {
-    /*background-color: yellow;*/
+    background-color: #8A1C00;
 }
 
 figure, figure div, figure img {
@@ -48,16 +48,17 @@ figure, figure div, figure img {
 /* Първа сцена - Исторя 2*/
 #responsive2-1 {
     font-size: 2rem;
-    display: block;
-    visibility: visible;
+}
+
+figcaption{
+    display: none;
 }
 
 #first-scene2 img {
     margin: 0;
     padding: 0;
-    max-width: 100%;
-    /*min-width: 250px;*/
-    height: auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #first-scene2 {
@@ -98,8 +99,6 @@ figure, figure div, figure img {
 /* Втора сцена - Исторя 2*/
 #responsive2-2 {
     font-size: 2rem;
-    display: block;
-    visibility: visible;
 }
 
 #second-scene2 img {
@@ -115,7 +114,7 @@ figure, figure div, figure img {
     position: relative !important;
     background-color: yellow;
     display: inline-block;
-    /*margin:200px;*/
+    margin: 0 auto;
 }
 
 #bubble2-2-1 {
@@ -190,8 +189,6 @@ figure, figure div, figure img {
 /* Трета сцена - Исторя 2*/
 #responsive2-3 {
     font-size: 2rem;
-    display: block;
-    visibility: visible;
 }
 
 #third-scene2 img {
@@ -303,8 +300,6 @@ figure, figure div, figure img {
 /* Четвърта сцена - Исторя 2*/
 #responsive2-4 {
     font-size: 2rem;
-    display: block;
-    visibility: visible;
 }
 
 #fourth-scene2 img {
@@ -385,8 +380,6 @@ figure, figure div, figure img {
        /* Пета сцена - Исторя 2*/
 #responsive2-5 {
     font-size: 2rem;
-    display: block;
-    visibility: visible;
 }
 
 #fifth-scene2 img {
@@ -431,3 +424,14 @@ figure, figure div, figure img {
         transform: scale(2);
         -webkit-transform: scale(2);
     }
+@media (max-width: 800px) {
+    figcaption {
+        display: block;
+        
+    }
+
+    figure div {
+        display: none;
+    }
+}
+
